@@ -1,8 +1,6 @@
-import { Button } from "../button";
 import { Container } from "../container";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
-import { FadeIn } from "../fade-in";
 
 const HeroSeccion = ({title, SubTitle}:any) => {
   const videoContainerRef = useRef<HTMLDivElement>(null);

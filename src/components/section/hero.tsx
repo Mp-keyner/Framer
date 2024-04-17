@@ -1,4 +1,3 @@
-import { Button } from "../button";
 import { Container } from "../container";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";

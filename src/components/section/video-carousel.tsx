@@ -1,12 +1,9 @@
-import banner3 from "../../../public/img/banner3.png";
 import {
   Movie,
   movies,
   randomMoviesSet1,
   randomMoviesSet2,
 } from "../../movies";
-import { Button } from "../button";
-import { FadeIn } from "../fade-in";
 import {
   useScroll,
   useTransform,
