@@ -193,4 +193,4 @@ const SmallVideoCarousel = ({ movies }: { movies: Movie[] }) => {
       </div>
     </div>
   );
-};
+}; 
