@@ -62,7 +62,7 @@ export const VideoCarousel = () => {
     }
   });
 
-  const videoContainerRef = useRef<HTMLDivElement>(null);
+  const videoContainerRef = useRef<any>(null);
   const { scrollYProgress:scrollYProgress2 } = useScroll({
     target: videoContainerRef,
     offset: ["start start", "end end"],
@@ -105,7 +105,6 @@ export const VideoCarousel = () => {
               /> */}
               <motion.div
                 style={{ opacity }}
-                ref={scrollYProgress2}
                 className="absolute -top-[--header-height] left-0 h-[200vh] w-full"
               >
                 <img
@@ -125,7 +124,7 @@ export const VideoCarousel = () => {
                   animate="hidden"
                   viewport={{ amount: 0.98 }}
                   style={{
-                    scale2,
+                    scale: scale2,
                     textAlign: "center",
                   }}
                 >
