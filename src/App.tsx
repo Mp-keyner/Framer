@@ -1,6 +1,3 @@
-import { Button } from "./components/button";
-import { Container } from "./components/container";
-import { Header } from "./components/header";
 import HeroSeccion from "./components/section/HeroSeccion";
 import { Hero } from "./components/section/hero";
 import { Usps } from "./components/section/usps";
